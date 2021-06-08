@@ -19,12 +19,24 @@
 		42735A43266A8F0600C859F0 /* ArtistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42735A42266A8F0600C859F0 /* ArtistDetailViewController.swift */; };
 		42735A45266ABA9400C859F0 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42735A44266ABA9400C859F0 /* MusicViewModel.swift */; };
 		42735A4A266E7E3900C859F0 /* MusicDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42735A49266E7E3900C859F0 /* MusicDetailsViewModel.swift */; };
+		42735A52266EF77100C859F0 /* GMCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42735A51266EF77100C859F0 /* GMCodingChallengeTests.swift */; };
+		42735A5A266EF8BB00C859F0 /* NetworkRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42735A59266EF8BB00C859F0 /* NetworkRequestTests.swift */; };
 		9E70F358266EA484000A7AFF /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E70F356266EA484000A7AFF /* MusicCell.swift */; };
 		9E70F359266EA484000A7AFF /* MusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E70F357266EA484000A7AFF /* MusicCell.xib */; };
 		9E70F35B266EA68C000A7AFF /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E70F35A266EA68C000A7AFF /* ImageCache.swift */; };
 		9E70F35D266EAFC3000A7AFF /* HomeViewController+Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E70F35C266EAFC3000A7AFF /* HomeViewController+Spinner.swift */; };
 		9E70F362266EB2A8000A7AFF /* Artist.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E70F361266EB2A8000A7AFF /* Artist.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42735A54266EF77100C859F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42735A18266A6A0100C859F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42735A1F266A6A0100C859F0;
+			remoteInfo = GMCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		42735A20266A6A0100C859F0 /* GMCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +53,10 @@
 		42735A42266A8F0600C859F0 /* ArtistDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailViewController.swift; sourceTree = "<group>"; };
 		42735A44266ABA9400C859F0 /* MusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewModel.swift; sourceTree = "<group>"; };
 		42735A49266E7E3900C859F0 /* MusicDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailsViewModel.swift; sourceTree = "<group>"; };
+		42735A4F266EF77100C859F0 /* GMCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42735A51266EF77100C859F0 /* GMCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMCodingChallengeTests.swift; sourceTree = "<group>"; };
+		42735A53266EF77100C859F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42735A59266EF8BB00C859F0 /* NetworkRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestTests.swift; sourceTree = "<group>"; };
 		9E70F356266EA484000A7AFF /* MusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
 		9E70F357266EA484000A7AFF /* MusicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicCell.xib; sourceTree = "<group>"; };
 		9E70F35A266EA68C000A7AFF /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
@@ -56,6 +72,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		42735A4C266EF77100C859F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				42735A22266A6A0100C859F0 /* GMCodingChallenge */,
+				42735A50266EF77100C859F0 /* GMCodingChallengeTests */,
 				42735A21266A6A0100C859F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				42735A20266A6A0100C859F0 /* GMCodingChallenge.app */,
+				42735A4F266EF77100C859F0 /* GMCodingChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +153,16 @@
 			path = "Support Files";
 			sourceTree = "<group>";
 		};
+		42735A50266EF77100C859F0 /* GMCodingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				42735A51266EF77100C859F0 /* GMCodingChallengeTests.swift */,
+				42735A59266EF8BB00C859F0 /* NetworkRequestTests.swift */,
+				42735A53266EF77100C859F0 /* Info.plist */,
+			);
+			path = GMCodingChallengeTests;
+			sourceTree = "<group>";
+		};
 		9E70F354266E9D8E000A7AFF /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +211,24 @@
 			productReference = 42735A20266A6A0100C859F0 /* GMCodingChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
+		42735A4E266EF77100C859F0 /* GMCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42735A58266EF77100C859F0 /* Build configuration list for PBXNativeTarget "GMCodingChallengeTests" */;
+			buildPhases = (
+				42735A4B266EF77100C859F0 /* Sources */,
+				42735A4C266EF77100C859F0 /* Frameworks */,
+				42735A4D266EF77100C859F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42735A55266EF77100C859F0 /* PBXTargetDependency */,
+			);
+			name = GMCodingChallengeTests;
+			productName = GMCodingChallengeTests;
+			productReference = 42735A4F266EF77100C859F0 /* GMCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,6 +240,10 @@
 				TargetAttributes = {
 					42735A1F266A6A0100C859F0 = {
 						CreatedOnToolsVersion = 12.5;
+					};
+					42735A4E266EF77100C859F0 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 42735A1F266A6A0100C859F0;
 					};
 				};
 			};
@@ -204,6 +261,7 @@
 			projectRoot = "";
 			targets = (
 				42735A1F266A6A0100C859F0 /* GMCodingChallenge */,
+				42735A4E266EF77100C859F0 /* GMCodingChallengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -218,6 +276,13 @@
 				42735A2B266A6A0100C859F0 /* Main.storyboard in Resources */,
 				9E70F359266EA484000A7AFF /* MusicCell.xib in Resources */,
 				9E70F362266EB2A8000A7AFF /* Artist.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42735A4D266EF77100C859F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +308,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		42735A4B266EF77100C859F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42735A5A266EF8BB00C859F0 /* NetworkRequestTests.swift in Sources */,
+				42735A52266EF77100C859F0 /* GMCodingChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42735A55266EF77100C859F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42735A1F266A6A0100C859F0 /* GMCodingChallenge */;
+			targetProxy = 42735A54266EF77100C859F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		42735A29266A6A0100C859F0 /* Main.storyboard */ = {
@@ -419,6 +501,46 @@
 			};
 			name = Release;
 		};
+		42735A56266EF77100C859F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZR7FKBFJP;
+				INFOPLIST_FILE = GMCodingChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HinWong.GMCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMCodingChallenge.app/GMCodingChallenge";
+			};
+			name = Debug;
+		};
+		42735A57266EF77100C859F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZR7FKBFJP;
+				INFOPLIST_FILE = GMCodingChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HinWong.GMCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMCodingChallenge.app/GMCodingChallenge";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -436,6 +558,15 @@
 			buildConfigurations = (
 				42735A35266A6A0900C859F0 /* Debug */,
 				42735A36266A6A0900C859F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42735A58266EF77100C859F0 /* Build configuration list for PBXNativeTarget "GMCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42735A56266EF77100C859F0 /* Debug */,
+				42735A57266EF77100C859F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
